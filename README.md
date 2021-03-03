@@ -15,3 +15,13 @@ Exec "go run ./server.go" to start GraphQL server
 $ go run server.go 
 2021/03/02 16:29:48 connect to http://localhost:8080/ for GraphQL playground
 ```
+
+## Step 2. Add code slightly more realistic
+
+Add new `graph/model/todo.go`, regenerate the code and implement the new resolver into `graph/schema.resolvers.go`.
+
+```bash
+$ go generate
+$ go run server.go 
+2021/03/02 20:35:39 connect to http://localhost:8080/ for GraphQL playground
+```
