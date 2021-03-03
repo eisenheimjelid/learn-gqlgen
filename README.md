@@ -1,6 +1,22 @@
 # learn-gqlgen
 My history about the process to learn GraphQL+Go
 
+Maybe the roadmap will be:
+
+* Setup gqlgen
+  * Setup the graphql server
+* Code slightly more realistic
+  * Complete the example from "getting started" documentation
+* Custom example (may the force be with you)
+  * Create a custom types and resolvers, with the Starwars example
+* Handling errors
+  * Make more robust our code, handling errors
+* Apollo Federation
+  * Create more graphql servers, and connect between that
+* Connect with a persistent layer
+  * Now add a database server to save the data
+
+
 ## Step 1. Setup gqlgen
 
 Do next, with the current code, and it will run like the example from https://gqlgen.com/getting-started/.
